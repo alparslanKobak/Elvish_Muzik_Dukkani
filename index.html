@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="AK">
+
+    <title>Bootstrap demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid g-0">
+        <div class="row g-0">
+            <aside class="col-3 float-start"> <!-- Arka plan resmi -->
+
+                <img src="https://wallpaperaccess.com/full/49758.jpg" class="img-fluid" style="height: 100%;" alt="">
+            </aside>
+            <main class="col-6 shadow-lg"> <!-- Ana içerik -->
+
+
+                <header id="head" class="container-fluid bg-success g-0 mb-1 rounded-3">
+                    <div class="row">
+
+                        <div class="col d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-3 d-flex justify-content-center ">
+                                    <a href="#">
+
+                                        <img src="https://64.media.tumblr.com/759afac5fb83c245eff076556e400b31/c0667b2a2308c034-f4/s1280x1920/4a78acc82e2c11a9a34e472614e306d1878e88d6.png"
+                                            class="img-fluid rounded-circle" style="max-height: 200px;" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6 d-flex justify-content-center  align-items-center">
+                                    <a href="#" class="text-decoration-none text-bg-success">
+                                        <h1 class="fw-bolder fst-italic">Music Forest</h1>
+                                    </a>
+                                </div>
+                                <div class="col-3 d-flex justify-content-center">
+                                    <a href="#">
+
+                                        <img src="https://64.media.tumblr.com/759afac5fb83c245eff076556e400b31/c0667b2a2308c034-f4/s1280x1920/4a78acc82e2c11a9a34e472614e306d1878e88d6.png"
+                                            class="img-fluid rounded-circle" style="max-height: 200px;" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <nav class="navbar navbar-expand-lg bg-warning-subtle text-bg-warning border border-dark rounded-3">
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-5 d-flex justify-content-center">
+
+                                <a class="navbar-brand" href="#">
+                                    <h3 class="fw-bold fst-italic">Music Forest</h3>
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                            <div class="col-7 text-center">
+
+                                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                    <ul class="navbar-nav float-end">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Anasayfa</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Hakkımızda</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">İletişim</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Ürünlerimiz
+                                            </a>
+                                            <ul class="dropdown-menu bg-warning-subtle text-bg-warning">
+                                                <li><a class="dropdown-item " href="#">Hediyelik Elvish Eşyalar
+                                                        <hr>
+                                                    </a></li>
+
+                                                <li><a class="dropdown-item" href="#">Elvish Müzik Aletlerimiz
+                                                        <hr>
+                                                    </a></li>
+
+                                                <li><a class="dropdown-item" href="#">Cosplay İçeriklerimiz
+                                                        <hr>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+
+                <div class="container mt-1 mb-1 ">
+                    <div class="row bg-warning-subtle border border-black">
+                        <div class="col d-flex flex-wrap"> <!-- Ürünler buraya dizilecek --> <!-- Önemli bilgi : d-flex ve flex-wrap birlikte kullanıldığında card'lar aynı row>col altında dizilir.-->
+                            <div class="card m-2 rounded-5 shadow" style="width: 18rem;">
+                                <img src="https://pureocarinas.com/res/files/2019/09/large/ac_dark_blue.jpg"
+                                    class="card-img-top rounded-bottom-circle" title="Ocarina" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic">Ocarina</h5>
+                                    <p class="card-text fst-italic">Elf Flüt Okarina</p>
+                                    <a href="#" class="btn btn-primary">Detaylar</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 rounded-5 shadow" style="width: 18rem;">
+                                <img src="https://pureocarinas.com/res/files/2019/09/large/ac_dark_blue.jpg"
+                                    class="card-img-top rounded-bottom-circle" title="Ocarina" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic">Ocarina</h5>
+                                    <p class="card-text fst-italic">Elf Flüt Okarina</p>
+                                    <a href="#" class="btn btn-primary">Detaylar</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 rounded-5 shadow" style="width: 18rem;">
+                                <img src="https://pureocarinas.com/res/files/2019/09/large/ac_dark_blue.jpg"
+                                    class="card-img-top rounded-bottom-circle" title="Ocarina" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic">Ocarina</h5>
+                                    <p class="card-text fst-italic">Elf Flüt Okarina</p>
+                                    <a href="#" class="btn btn-primary">Detaylar</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 rounded-5 shadow" style="width: 18rem;">
+                                <img src="https://pureocarinas.com/res/files/2019/09/large/ac_dark_blue.jpg"
+                                    class="card-img-top rounded-bottom-circle" title="Ocarina" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic">Ocarina</h5>
+                                    <p class="card-text fst-italic">Elf Flüt Okarina</p>
+                                    <a href="#" class="btn btn-primary">Detaylar</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 rounded-5 shadow" style="width: 18rem;">
+                                <img src="https://pureocarinas.com/res/files/2019/09/large/ac_dark_blue.jpg"
+                                    class="card-img-top rounded-bottom-circle" title="Ocarina" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic">Ocarina</h5>
+                                    <p class="card-text fst-italic">Elf Flüt Okarina</p>
+                                    <a href="#" class="btn btn-primary">Detaylar</a>
+                                </div>
+                            </div>
+                            <div class="card m-2 rounded-5 shadow" style="width: 18rem;">
+                                <img src="https://pureocarinas.com/res/files/2019/09/large/ac_dark_blue.jpg"
+                                    class="card-img-top rounded-bottom-circle" title="Ocarina" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic">Ocarina</h5>
+                                    <p class="card-text fst-italic">Elf Flüt Okarina</p>
+                                    <a href="#" class="btn btn-primary">Detaylar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="container mt-1">
+                    <div class="row bg-success text-bg-success rounded-3 shadow">
+                        <div class="col-sm-12 col-md-4 text-center align-content-center">
+                            <h4 class="fw-bolder fst-italic mt-2">Music Forest</h4>
+                            <hr>
+                            <address>Kadıköy / İstanbul</address>
+                            <hr>
+                            <a href="index.html" class="link-light text-decoration-none mb-1">
+                                <img src="https://64.media.tumblr.com/759afac5fb83c245eff076556e400b31/c0667b2a2308c034-f4/s1280x1920/4a78acc82e2c11a9a34e472614e306d1878e88d6.png"
+                                    class="img-fluid m-2 rounded-circle" style="max-height: 50px;" alt=""> Anasayfa</a>
+
+                        </div>
+                        <div class="col-sm-12 col-md-7 m-2">
+                            <iframe class="border-primary shadow rounded-5"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.996664266188!2d29.02187157515985!3d40.98155387858564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab88abbc8c0d3%3A0x769f8515c54a97b!2zQ2FmZXJhxJ9hLCBNb2RhIEJvc3RhbsSxIFNrLiBObzo1MywgMzQ3MTAgS2FkxLFrw7Z5L8Swc3RhbmJ1bCwgVMO8cmtpeWU!5e0!3m2!1str!2suk!4v1689431424391!5m2!1str!2suk"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                    </div>
+                </footer>
+            </main>
+            <aside class="col-3 float-end"> <!-- Arka plan resmi -->
+
+                <img src="https://wallpaperaccess.com/full/49758.jpg" class="img-fluid" style="height: 100%;" alt="">
+            </aside>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
